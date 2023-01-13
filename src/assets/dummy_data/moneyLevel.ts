@@ -1,0 +1,17 @@
+export const moneyPyramid: { id: number; amount: string }[] = [
+  { id: 1, amount: "Br. 100" },
+  { id: 2, amount: "Br. 200" },
+  { id: 3, amount: "Br. 300" },
+  { id: 4, amount: "Br. 500" },
+  { id: 5, amount: "Br. 1.000" },
+  { id: 6, amount: "Br. 2.000" },
+  { id: 7, amount: "Br. 4.000" },
+  { id: 8, amount: "Br. 8.000" },
+  { id: 9, amount: "Br. 16.000" },
+  { id: 10, amount: "Br. 32.000" },
+  { id: 11, amount: "Br. 64.000" },
+  { id: 12, amount: "Br. 125.000" },
+  { id: 13, amount: "Br. 250.000" },
+  { id: 14, amount: "Br. 500.000" },
+  { id: 15, amount: "Br. 1.000.000" },
+].reverse();
