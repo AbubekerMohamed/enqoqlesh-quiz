@@ -47,6 +47,8 @@ export default function Quizzes({
         delay(1000, () => {
           setQuestionNumber((prev) => prev + 1);
           setSelectedAnswer(null);
+          stop();
+          playTimerSound();
         });
       } else {
         wrongAnswer();

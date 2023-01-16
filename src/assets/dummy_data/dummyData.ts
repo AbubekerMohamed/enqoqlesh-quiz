@@ -4,7 +4,7 @@ export const data = [
     question: "በሯን ዘገታ የምታጨበጭብ",
     answers: [
       {
-        text: "Phone",
+        text: "ሙሽራ",
         correct: false,
       },
       {
@@ -12,11 +12,11 @@ export const data = [
         correct: true,
       },
       {
-        text: "Food",
+        text: "አዝማሪ",
         correct: false,
       },
       {
-        text: "Cosmetic",
+        text: "ምስጥ",
         correct: false,
       },
     ],
@@ -30,15 +30,15 @@ export const data = [
         correct: true,
       },
       {
-        text: "2005",
+        text: "ልጅ",
         correct: false,
       },
       {
-        text: "2006",
+        text: "እብድ",
         correct: false,
       },
       {
-        text: "2007",
+        text: "በትር",
         correct: false,
       },
     ],
@@ -48,15 +48,15 @@ export const data = [
     question: "ሰዓት የለው ፣ ሰዓት ያውቃል",
     answers: [
       {
-        text: "Johnny Deep",
+        text: "አፍቃሪ",
         correct: false,
       },
       {
-        text: "Leonardo Di Caprio",
+        text: "ተቀጣሪ",
         correct: false,
       },
       {
-        text: "Denzel Washington",
+        text: "ጠንቋይ",
         correct: false,
       },
       {
@@ -70,20 +70,20 @@ export const data = [
     question: "ውኃ ፈሪ ፣ ገደል ደፋሪ",
     answers: [
       {
-        text: "Johnny Deep",
-        correct: false,
-      },
-      {
-        text: "Leonardo Di Caprio",
-        correct: false,
-      },
-      {
-        text: "Denzel Washington",
+        text: "ረዥም ሰው",
         correct: false,
       },
       {
         text: "ጉንዳን / ቁጫጭ",
         correct: true,
+      },
+      {
+        text: "ዘላን",
+        correct: false,
+      },
+      {
+        text: "ጦጣ",
+        correct: false,
       },
     ],
   },
@@ -92,37 +92,37 @@ export const data = [
     question: "አንገትና ጆሮ አለው ግን ነፍስ የለውም",
     answers: [
       {
-        text: "Johnny Deep",
-        correct: false,
-      },
-      {
-        text: "Leonardo Di Caprio",
-        correct: false,
-      },
-      {
-        text: "Denzel Washington",
-        correct: false,
-      },
-      {
         text: "እንስራ",
         correct: true,
+      },
+      {
+        text: "ሃውልት",
+        correct: false,
+      },
+      {
+        text: "ድስት",
+        correct: false,
+      },
+      {
+        text: "ባልዲ",
+        correct: false,
       },
     ],
   },
   {
     id: 6,
-    question: "በእንግሊዘኛ ሲጠሩኝ የሌሊት ወፍ ነኝ፤ በአማርኛ ግን የሰው አካሌ ነኝ፤ እኔ ማን ነኝ",
+    question: "በእንግሊዘኛ ሲጠሩኝ እንስሳ ነኝ፤ በአማርኛ ግን የሰው አካል ነኝ፤ እኔ ማን ነኝ",
     answers: [
       {
-        text: "Johnny Deep",
+        text: "ጎት",
         correct: false,
       },
       {
-        text: "Leonardo Di Caprio",
+        text: "ራት",
         correct: false,
       },
       {
-        text: "Denzel Washington",
+        text: "ጋት",
         correct: false,
       },
       {
@@ -137,15 +137,15 @@ export const data = [
       "ሶስት ሰዎች ድልድይ ይሻገራሉ ፣ አንዱ መራመድም ማየትም አይችልም ፣ ሌላኛው መራመድና ማየት ይችላል ፣ የመጨረሻው ማየት ብቻ ይችላል",
     answers: [
       {
-        text: "Johnny Deep",
+        text: "ሁለት አካል ጉዳተኞች እና አንድ ጢናማ",
         correct: false,
       },
       {
-        text: "Leonardo Di Caprio",
+        text: "ሁለት አካል ልጆች እና አንድ አባት",
         correct: false,
       },
       {
-        text: "Denzel Washington",
+        text: "አንድ አይጥ አንድ ድመት እና አንድ ስጋ",
         correct: false,
       },
       {
@@ -159,20 +159,20 @@ export const data = [
     question: "ሰውነትም አጥንትም የለውም ግን ጣቶች አሉት",
     answers: [
       {
-        text: "Johnny Deep",
+        text: "ጮለቅ",
         correct: false,
       },
       {
-        text: "Leonardo Di Caprio",
-        correct: false,
-      },
-      {
-        text: "Denzel Washington",
+        text: "ማበጠሪያ",
         correct: false,
       },
       {
         text: "ጓንት",
         correct: true,
+      },
+      {
+        text: "ሹካ",
+        correct: false,
       },
     ],
   },
@@ -181,20 +181,20 @@ export const data = [
     question: "ጥቁር አዞ ተጠማዞ",
     answers: [
       {
-        text: "Johnny Deep",
-        correct: false,
-      },
-      {
-        text: "Leonardo Di Caprio",
-        correct: false,
-      },
-      {
-        text: "Denzel Washington",
+        text: "የማሪያም መቀነት",
         correct: false,
       },
       {
         text: "አስፋልት",
         correct: true,
+      },
+      {
+        text: "ቱቦ",
+        correct: false,
+      },
+      {
+        text: "ወንዝ",
+        correct: false,
       },
     ],
   },
@@ -203,20 +203,20 @@ export const data = [
     question: "ኩል ተኩላ ገብያ የምትወጣ",
     answers: [
       {
-        text: "Johnny Deep",
-        correct: false,
-      },
-      {
-        text: "Leonardo Di Caprio",
-        correct: false,
-      },
-      {
-        text: "Denzel Washington",
-        correct: false,
-      },
-      {
         text: "ባቄላ",
         correct: true,
+      },
+      {
+        text: "ልጃ ገረድ",
+        correct: false,
+      },
+      {
+        text: "ሙሽራ",
+        correct: false,
+      },
+      {
+        text: "ምስር",
+        correct: false,
       },
     ],
   },
@@ -225,15 +225,15 @@ export const data = [
     question: "እናቷ ተቀማጭ ፣ ልጅቷ ዟሪ",
     answers: [
       {
-        text: "Johnny Deep",
+        text: "ዶሮ",
         correct: false,
       },
       {
-        text: "Leonardo Di Caprio",
+        text: "ወፍ",
         correct: false,
       },
       {
-        text: "Denzel Washington",
+        text: "ሙቀጫ",
         correct: false,
       },
       {
@@ -247,20 +247,20 @@ export const data = [
     question: "እየደነሰች የምታረግዝ",
     answers: [
       {
-        text: "Johnny Deep",
-        correct: false,
-      },
-      {
-        text: "Leonardo Di Caprio",
-        correct: false,
-      },
-      {
-        text: "Denzel Washington",
-        correct: false,
-      },
-      {
         text: "እንዝርት",
         correct: true,
+      },
+      {
+        text: "ደመና",
+        correct: false,
+      },
+      {
+        text: "አዝማሪ",
+        correct: false,
+      },
+      {
+        text: "ማግ",
+        correct: false,
       },
     ],
   },
@@ -269,20 +269,20 @@ export const data = [
     question: "ቀይ ምንጣፍ ላይ ፣ ነጫጭ ቄሶች",
     answers: [
       {
-        text: "Johnny Deep",
+        text: "አበባ",
         correct: false,
       },
       {
-        text: "Leonardo Di Caprio",
-        correct: false,
-      },
-      {
-        text: "Denzel Washington",
+        text: "ደም",
         correct: false,
       },
       {
         text: "ጥርስ",
         correct: true,
+      },
+      {
+        text: "እሳት",
+        correct: false,
       },
     ],
   },
@@ -291,20 +291,20 @@ export const data = [
     question: "የራሷን ቀዳዳ ሳትሰፋ የሌላ ቀዳዳ የምትሰፋ",
     answers: [
       {
-        text: "Johnny Deep",
-        correct: false,
-      },
-      {
-        text: "Leonardo Di Caprio",
-        correct: false,
-      },
-      {
-        text: "Denzel Washington",
+        text: "ተች ሰው",
         correct: false,
       },
       {
         text: "መርፌ",
         correct: true,
+      },
+      {
+        text: "ሸማኔ",
+        correct: false,
+      },
+      {
+        text: "ሚስት",
+        correct: false,
       },
     ],
   },
@@ -313,15 +313,15 @@ export const data = [
     question: "ንጉሱን ተነሱ ስትል የማታፍር",
     answers: [
       {
-        text: "Johnny Deep",
+        text: "ንግስት",
         correct: false,
       },
       {
-        text: "Leonardo Di Caprio",
+        text: "ትንታ",
         correct: false,
       },
       {
-        text: "Denzel Washington",
+        text: "ልዐልት",
         correct: false,
       },
       {

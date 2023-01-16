@@ -21,10 +21,9 @@ function App() {
       setEarned(moneyPyramid.find((m) => m.id === prevQuestion)!.amount);
     }
     switch (questionNumber) {
-      case 0:
+      case 1:
         setStatus("Sorry");
         break;
-      case 1:
       case 2:
       case 3:
       case 4:
@@ -45,6 +44,8 @@ function App() {
       case 15:
         setStatus("Superb");
         break;
+      default:
+        setStatus("Oops");
     }
   }, [questionNumber]);
 
